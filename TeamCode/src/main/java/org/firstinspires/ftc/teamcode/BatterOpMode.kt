@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode
 import com.qualcomm.robotcore.hardware.DcMotor
 
 
-@Autonomous(name = "BatterOpMode", group = "autonomous")
+@TeleOp(name = "BatterOpMode", group = "autonomous")
 class BatterOpMode : OpMode() {
 
     private lateinit var batMotor: DcMotor
